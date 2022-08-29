@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    color: #222222;
+    font-weight: 400;
+    line-height: 1.35;
+    background-color: lightgray;
+    font-family: Arial,sans-serif;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+.section{
+    float: left;
+    width: 100%;
+}
+.container{
+    float: none;
+    width: 1200px;
+    margin: 0 auto;
+}
+.sidebar{
+    float: left;
+    width: 25%;
+}
+.content{
+    float: left;
+    width: 75%;
+}
