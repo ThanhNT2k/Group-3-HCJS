@@ -1,0 +1,13 @@
+.top-page{
+    width: 100%;
+    background-color: black;
+    border-bottom: 1px solid black;
+}
+.top-page-right a{
+    font-size: 16px;
+    color: white;
+    float: right;
+}
+.top-page-right i{
+    color: white;
+}
