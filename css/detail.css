@@ -1,12 +1,24 @@
 .top-page{
     width: 100%;
+<<<<<<< HEAD
     background-color: black;
     border-bottom: 1px solid black;
+=======
+    height: 50px;
+    background-color: black;
+    border-bottom: 1px solid black;
+    padding: 16px;
+    display: block;
+>>>>>>> origin/main
 }
 .top-page-right a{
     font-size: 16px;
     color: white;
     float: right;
+<<<<<<< HEAD
+=======
+    margin-right: 30px;
+>>>>>>> origin/main
 }
 .top-page-right i{
     color: white;
