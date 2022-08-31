@@ -1,25 +1,21 @@
 .top-page{
     width: 100%;
-<<<<<<< HEAD
-    background-color: black;
-    border-bottom: 1px solid black;
-=======
     height: 50px;
     background-color: black;
     border-bottom: 1px solid black;
-    padding: 16px;
-    display: block;
->>>>>>> origin/main
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 .top-page-right a{
-    font-size: 16px;
+    font-size: 20px;
     color: white;
     float: right;
-<<<<<<< HEAD
-=======
-    margin-right: 30px;
->>>>>>> origin/main
+    margin-right: 60px;
 }
 .top-page-right i{
     color: white;
+}
+body{
+    width: 100%;
 }
