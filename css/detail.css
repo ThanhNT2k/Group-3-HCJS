@@ -1,10 +1,12 @@
 .top-page{
+    margin: 0;
     width: 100%;
     height: 50px;
     background-color: black;
     border-bottom: 1px solid black;
     padding: 16px;
     display: block;
+    /*box-sizing: border-box;*/
 }
 .top-page-right a{
     font-size: 16px;
@@ -14,4 +16,4 @@
 }
 .top-page-right i{
     color: white;
-}
+}z
