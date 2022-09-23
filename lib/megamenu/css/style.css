@@ -1,14 +1,15 @@
+.menu{
+    float: left;
+}
 .menu-container {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     background: #e9e9e9;
 }
-
 .menu-mobile {
     display: none;
     padding: 20px;
 }
-
 .menu-mobile:after {
     content: "\f394";
     font-family: "Ionicons";
