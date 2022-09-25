@@ -1,3 +1,65 @@
+li {
+    list-style: none;
+}
+.header{
+    background-color: #f1df11;
+    padding: 20px 0;
+}
+.logo{
+    float: left;
+}
+.logo a{
+    font-size: 50px;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    text-shadow: -2px 3px 3px black;
+}
+.top-cart{
+    float: right;
+    margin-right: 60px;
+    margin-top: 12px;
+}
+.menu{
+    float: right;
+    margin-right: 200px;
+    margin-top: 12px;
+}
+.menu li{
+    float: left;
+}
+.menu li a{
+    float: left;
+    text-decoration: none;
+    margin-right: 25px;
+    font-size: 22px;
+    color: black;
+    line-height: 54px;
+    font-weight: 500;
+}
+.top-cart a{
+    margin-right: 20px;
+    color: black;
+    font-size: 22px;
+    line-height: 54px;
+}
+.top-cart form{
+    position: relative;
+}
+.top-cart form input{
+    background: #fff;
+    padding: 3px;
+    border-radius: 3px;
+}
+.top-cart form button{
+    padding: 3px;
+    border-radius: 3px;
+    position: absolute;
+    background: #fff;
+    margin-top: 12px;
+}
+
+
 .footer-distributed{
     background: whitesmoke;
     box-sizing: border-box;
@@ -16,8 +78,8 @@
 }
 .footer-left h3{
     color: black;
-
-    font-size: 40px;
+    text-shadow: -2px 3px 3px black;
+    font-size: 50px;
     padding-top: 30px;
 }
 .footer-links{
@@ -46,6 +108,9 @@
     display: inline;
     font-size: 20px;
     color: black;
+}
+.footer-center p a{
+    text-decoration: none;
 }
 .footer-right{
     display: inline-block;
