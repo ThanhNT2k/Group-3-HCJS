@@ -78,6 +78,8 @@ li {
 }
 .footer-left h3{
     color: black;
+
+    font-size: 40px;
     text-shadow: -2px 3px 3px black;
     font-size: 50px;
     padding-top: 30px;
@@ -112,23 +114,8 @@ li {
 .footer-center p a{
     text-decoration: none;
 }
-.footer-right{
+.footer-right {
     display: inline-block;
     float: right;
     color: black;
-    font-size: 20px;
-    padding-top: 30px;
-    vertical-align: top;
-    width: calc(100% - 30% - 30% - 50px);
-}
-.footer-company-about h4{
-    color: black;
-    font-size: 25px;
-}
-.footer-company-about p{
-    padding-top: 20px;
-    font-size: 16px;
-}
-.footer-icons i{
-    padding-right: 40px;
 }
