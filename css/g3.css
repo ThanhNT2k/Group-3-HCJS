@@ -91,8 +91,7 @@ nav img{
     width: 20px;
 }
 .nav li{
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-radius: 5px;
     color: white;
     line-height: 3;
     padding: 0 30px;
@@ -105,29 +104,6 @@ nav img{
 .nav i:hover{
     background-color: dimgray;
 }
-
-
-/*css megamenu*/
-.nav ul li{
-    position: relative;
-}
-.nav ul li ul{
-    display: none;
-    position: absolute;
-    z-index: 10;              /*in nổi phần tử */
-    background-color: dimgray;
-    left: 0;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-}
-.nav ul li:hover ul{
-    display: block;
-}
-.nav ul li ul li:hover a{
-    color: red;
-}
-
-
 
 .footer-col{
     float: left;
@@ -187,6 +163,20 @@ nav img{
     float: left;
     color: #cccccc;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #owl{
     width: 1200px;
     margin: auto;
@@ -294,10 +284,3 @@ h3 a:hover{
 .new{
     background-color: black;
 }
-
-
-
-
-
-
-
