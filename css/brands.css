@@ -1,0 +1,38 @@
+.w-item{
+    border: 1px solid gray;
+    border-radius: 3px;
+    background-color: white;
+    margin: 0;
+    float: left;
+    width: 20%;
+    padding: 5px;
+    height: 390px;
+    box-sizing: border-box;
+}
+.w-item:hover{
+    box-shadow: 0 0 20px grey;
+    transform: scale(1.001);
+}
+.danhmucsanpham a{
+    color: black;
+}
+.danhmucsanpham li{
+    padding: 8px 7px;
+    line-height: 1.5;
+    list-style: none;
+    font-size: 14px;
+    float: left;
+    margin: 30px 5px 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    height: 40px;
+    box-shadow: 0 0 1px gray;
+}
+.new .deal-main{
+    background-color: black;
+    padding: 0;
+    border-radius: 5px;
+}
+.new{
+    margin-bottom: 30px;
+}
