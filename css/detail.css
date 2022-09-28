@@ -1,22 +1,11 @@
-.information{
-  font-size: 16px;
-  color: black;
+*{
+  font-family: Arial;
 }
-.ulist{
-  list-style: none;
-  border: 1px solid black;
+.name-sp {
+  text-align: center;
 }
-.information-item{
-  margin-top: 30px;
-}
-.stname{
-  display: flex;
-  padding-top: 5px;
-}
-.ctleft{
-  float: left;
-  width: 200px;
-}
-.ctright{
-  width: 300px;
+.under-name{
+  text-align: center;
+  display: inline;
+
 }
