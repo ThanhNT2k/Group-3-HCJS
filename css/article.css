@@ -1,0 +1,101 @@
+.content{
+    width: 100%;
+}
+.area{
+    /*background-color: green;*/
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    display: block;
+    position: relative;
+    font-size: 45px;
+    background-image: url("../images/article/hotsale.png");
+    height: 90px;
+    color: white;
+    font-weight: bold;
+    line-height: 90px;
+    margin: 0;
+}
+.up-to{
+    color: #ffd400;
+}
+.deal-main{
+    background-color: #de3535;
+    padding: 5px;
+    height: 400px;
+    border-radius: 0 0 10px 10px;
+    margin: 0;
+}
+.item{
+    border-radius: 10px;
+    background-color: white;
+    margin: 5px;
+    float: left;
+    width: calc(20% - 10px);
+    padding: 5px;
+    height: 380px;
+}
+.item img{
+    border-radius: 5px;
+}
+.item img:hover{
+    transform: translate(0, -5px);
+    transition: 300ms all;
+}
+.sale-title{
+    font-weight: bold;
+    line-height: 1.5;
+    width: 80%;
+    border-radius: 10px;
+    font-size: 12px;
+    background-color: orangered;
+    color: white;
+    margin-bottom: 10px;
+}
+.sale-title i{
+    color: yellow;
+    padding: 1px 2px;
+    border-radius: 50%;
+    margin: 0 5px;
+    border: 1px solid white;
+}
+h3 a{
+    color: #222222;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+h3 a:hover{
+    color: dodgerblue;
+}
+.old-price-line{
+    font-size: 10px;
+}
+.old-price{
+    text-decoration: line-through;
+}
+.price{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.item-rating{
+    font-size: 10px;
+}
+.item-rating i{
+    color: orange;
+}
+.item-rating span{
+    margin-left: 5px;
+}
+.new h1{
+    background-color: #22222290;
+    background-image: none;
+}
+.new .deal-main{
+    background-color: #22222290;
+}
+
+

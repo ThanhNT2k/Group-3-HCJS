@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,78 +6,788 @@
     <title>Trang chủ</title>
     <link rel="stylesheet" href="lib/fontawesome/css/all.css"/>
     <link rel="stylesheet" href="css/layout.css"/>
-    <link rel="stylesheet" href="css/homepage.css"/>
-    <link rel="stylesheet" href="lib/bootstrap5.2/css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/g3.css">
+
+    <link rel="stylesheet" href="lib/owl-carousel/assets/owl.carousel.css">
+    <link rel="stylesheet" href="lib/owl-carousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="lib/owl-carousel/assets/owl.theme.default.min.css">
+    <script src="lib/jquery/jquery3.6.1.js"></script>
+    <script src="lib/owl-carousel/owl.carousel.min.js"></script>
+
 </head>
 <body>
+
 <header class="section header">
     <div class="container">
-        <div class="logo">
-            <a href="#">WATCH</a>
+        <div class="header-logo">
+            <a href="#"> <img src="images/g3-logo.jpg" width="50px" alt="g3-logo">
+                <span class="watch">WATCH</span> </a>
         </div>
-        <div class="top-cart">
-            <form>
-                <a href="#"><i class="fa-solid fa-cart-arrow-down"></i></a>
-                <input type="text" name="search" placeholder="Tìm kiếm sản phẩm..." />
-                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <div class="header-search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <form method="get" action="#">
+                <input type="text" name="search" placeholder="Tìm kiếm ...">
             </form>
         </div>
-        <div class="menu">
+        <div class="header-list">
             <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">DETAIL</a></li>
-                <li><a href="#">CATEGORY</a></li>
-                <li><a href="#">ABOUT</a></li>
+                <li><a href="#"><i class="fa-solid fa-location-dot"></i>Cửa hàng</a></li>
+                <li><a href="#"><i class="fa-solid fa-phone"></i><span class="muahang">Mua hàng</span>
+                    <span class="tel">1900 0325</span></a></li>
             </ul>
+        </div>
+        <div class="header-cart">
+            <a href="#"><i class="fa-solid fa-cart-shopping"></i>Giỏ hàng</a>
         </div>
     </div>
 </header>
 
-<footer class="footer-distributed">
-    <div class="footer-left">
-        <h3>WATCH</h3>
-        <p class="footer-links">
-            <a href="#" class="link-1">Home</a> |
-
-            <a href="#">Detail</a> |
-
-            <a href="#">Category</a> |
-
-            <a href="#">About</a> |
-        </p>
-        <p class="footer-company-name">Watch@2022</p>
+<nav class="section nav">
+    <div class="container">
+        <ul>
+            <a href="#"><i class="fa-solid fa-house-chimney fa-lg"></i></a>
+            <li>
+                <a href="#">Thương hiệu</a>
+                <ul class="sub_menu">
+                    <li><a href="">Rolex</a></li>
+                    <li><a href="">Calvin Klein</a></li>
+                    <li><a href="">Timex</a></li>
+                    <li><a href="">Tissot</a></li>
+                    <li><a href="">Omega</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Smartwatch</a>
+                <ul class="sub_menu">
+                    <li><a href="">Apple</a></li>
+                    <li><a href="">Samsung</a></li>
+                    <li><a href="">Xiaomi</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Đồng hồ nam</a>
+                <ul class="sub_menu">
+                    <li><a href="">Mức giá</a></li>
+                    <li><a href="">Bộ máy</a></li>
+                    <li><a href="">Loại dây</a></li>
+                    <li><a href="">Size mặt</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Đồng hồ nữ</a>
+                <ul class="sub_menu">
+                    <li><a href="">Mức giá</a></li>
+                    <li><a href="">Bộ máy</a></li>
+                    <li><a href="">Loại dây</a></li>
+                    <li><a href="">Size mặt</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Vòng đeo tay thông minh</a></li>
+            <li>
+                <a href="#">Phụ kiện đi kèm</a>
+                <ul class="sub_menu">
+                    <li><a href="#">Ví da</a></li>
+                    <li><a href="">Thắt lưng</a></li>
+                    <li><a href="">Hộp đựng</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Mức giá</a>
+                <ul class="sub_menu">
+                    <li><a href="">Basic</a></li>
+                    <li><a href="">Mid</a></li>
+                    <li><a href="">Luxury</a></li>
+                </ul>
+            </li>
+        </ul>
     </div>
-    <div class="footer-center">
+</nav>
 
-        <div>
-            <i class="fa fa-map-marker"></i>
-            <p> Số 8A Tôn Thất Thuyết, Mỹ Đình 2, Hà Nội</p>
-        </div>
+<section class="section main">
+    <div id="owl" class="owl-carousel owl-theme">
+        <div class="item"><img src="images/bigslide1.png"></div>
+        <div class="item"><img src="images/bigslide2.png"></div>
+        <div class="item"><img src="images/bigslide3.png"></div>
+        <div class="item"><img src="images/bigslide4.png"></div>
+        <div class="item"><img src="images/bigslide5.png"></div>
+        <div class="item"><img src="images/bigslide6.png"></div>
+        <div class="item"><img src="images/bigslide7.png"></div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.owl-carousel').owlCarousel({
 
-        <div>
-            <i class="fa fa-phone"></i>
-            <p> +84.555.555.5555</p>
-        </div>
+                autoplay:true,
+                autoplayTimeout:2500,
+                // dots:false,
 
-        <div>
-            <i class="fa fa-envelope"></i>
-            <p><a href="#"> support@company.com</a></p>
-        </div>
+                loop:true,
+                margin:10,
+                nav:false,
+                navText: ["<img src='images/prev-icon.png' width='30px'>","<img src='/images/next-icon.png' width='30px'>"],
+                responsive:{
+
+                    0:{
+
+                        items:1
+                    },
+                    600:{
+
+                        items:1
+                    },
+                    1000:{
+
+                        items:1
+                    }
+                }
+            })
+        });
+    </script>
+    <div class="danhmucsanpham">
+        <a href="#"><img src="images/apple-icon.png"></a>
+        <a href="#"><img src="images/samsung-icon.png"></a>
+        <a href="#"><img src="images/xiaomi-icon.png"></a>
+        <a href="#"><img src="images/oppo-icon.jpg"></a>
+        <a href="#"><img src="images/realme-icon.jpg"></a>
+        <a href="#"><img src="images/befit-icon.png"></a>
+        <a href="#"><img src="images/amaz.png"></a>
+
 
     </div>
+    <div class="container">
+        <article class="content">
+            <div class="area hot-sale">
+                <h1 class="hot-sale-title">HOT SALE <span class="up-to">GIẢM TỚI 100%</span></h1>
+                <div class="deal-main">
+                    <div class="w-item">
+                        <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
+                        <div class="item-info">
+                            <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
+                            <h3><a href="#">Apple Watch SE 40mm viền nhôm dây silicone</a></h3>
+                            <p class="old-price-line"><span class="old-price">8.990.000</span><sup class="dong">đ</sup><span>-22%</span></p>
+                            <p class="price">6.990.000<sup>đ</sup></p>
+                            <div class="item-rating">
+                                <p class="star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="item-rating-total">82</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-item">
+                        <a href="#"><img src="images/sale2.jpg" alt=""></a>
+                        <div class="item-info">
+                            <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>GIAM SOC</span></p>
+                            <h3><a href="#">Samsung Galaxy Watch 4 Classic 46mm dây silicone</a></h3>
+                            <p class="old-price-line"><span class="old-price">8.990.000</span><sup class="dong">đ</sup><span>-38%</span></p>
+                            <p class="price">5.490.000<sup>đ</sup></p>
+                            <div class="item-rating">
+                                <p class="star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="item-rating-total">7</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-item">
+                        <a href="#"><img src="images/sale3.jpg" alt=""></a>
+                        <div class="item-info">
+                            <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>Tặng Redmi Buds 3</span></p>
+                            <h3><a href="#">Xiaomi Watch S1 46.5mm dây da</a></h3>
+                            <p class="old-price-line"><span class="old-price">5.990.000</span><sup class="dong">đ</sup><span>-8%</span></p>
+                            <p class="price">5.490.000<sup>đ</sup></p>
+                            <div class="item-rating">
+                                <p class="star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="item-rating-total">37</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-item">
+                        <a href="#"><img src="images/sale4.jpg" alt=""></a>
+                        <div class="item-info">
+                            <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>Giảm 1 triệu hoặc quà</span></p>
+                            <h3><a href="#">Honor Watch GS3 45.9mm dây da</a></h3>
+                            <p class="old-price-line"><span class="old-price">5.990.000</span><sup class="dong">đ</sup><span>-22%</span></p>
+                            <p class="price">4.990.000<sup>đ</sup></p>
+                            <div class="item-rating">
+                                <p class="star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="item-rating-total">20</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-item">
+                        <a href="#"><img src="images/sale5.jpg" alt=""></a>
+                        <div class="item-info">
+                            <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
+                            <h3><a href="#">Apple Watch Series 7 GPS 41mm viền nhôm</a></h3>
+                            <p class="old-price-line"><span class="old-price">11.990.000</span><sup class="dong">đ</sup><span>-16%</span></p>
+                            <p class="price">8.990.000<sup>đ</sup></p>
+                            <div class="item-rating">
+                                <p class="star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="item-rating-total">33</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-    <div class="footer-right">
-        <div class="footer-company-about">
-            <h4>About the company</h4>
-            <p>Exclusive distributor of world famous watch brands, eyewear, pens: Epos Swiss, Atlantic Swiss, Diamond D, Philippe Auguste, Jacques Lemans, Citizen, Aries Gold, leather watch straps, watch straps hand....</p>
+            </div>
+            <a href="#" class="xemthem">Xem thêm sản phẩm khác &raquo;</a>
+
+            <div class="area new danhmuc2">
+                <a href="#"><img src="images/danhmuc2.png"></a>
+                <div class="deal-main">
+                    <div class="w-item">
+                        <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
+                        <div class="item-info">
+                            <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
+                            <h3><a href="#">Apple Watch SE 40mm vien nhom day silicone</a></h3>
+                            <p class="old-price-line"><span class="old-price">8.990.000</span><sup class="dong">đ</sup><span>-22%</span></p>
+                            <p class="price">6.990.000<sup>đ</sup></p>
+                            <div class="item-rating">
+                                <p class="star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="item-rating-total">82</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-item">
+                        <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
+                        <div class="item-info">
+                            <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
+                            <h3><a href="#">Apple Watch SE 40mm vien nhom day silicone</a></h3>
+                            <p class="old-price-line"><span class="old-price">8.990.000</span><sup class="dong">đ</sup><span>-22%</span></p>
+                            <p class="price">6.990.000<sup>đ</sup></p>
+                            <div class="item-rating">
+                                <p class="star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="item-rating-total">82</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-item">
+                        <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
+                        <div class="item-info">
+                            <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
+                            <h3><a href="#">Apple Watch SE 40mm vien nhom day silicone</a></h3>
+                            <p class="old-price-line"><span class="old-price">8.990.000</span><sup class="dong">đ</sup><span>-22%</span></p>
+                            <p class="price">6.990.000<sup>đ</sup></p>
+                            <div class="item-rating">
+                                <p class="star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="item-rating-total">82</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-item">
+                        <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
+                        <div class="item-info">
+                            <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
+                            <h3><a href="#">Apple Watch SE 40mm vien nhom day silicone</a></h3>
+                            <p class="old-price-line"><span class="old-price">8.990.000</span><sup class="dong">đ</sup><span>-22%</span></p>
+                            <p class="price">6.990.000<sup>đ</sup></p>
+                            <div class="item-rating">
+                                <p class="star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="item-rating-total">82</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-item">
+                        <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
+                        <div class="item-info">
+                            <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
+                            <h3><a href="#">Apple Watch SE 40mm vien nhom day silicone</a></h3>
+                            <p class="old-price-line"><span class="old-price">8.990.000</span><sup class="dong">đ</sup><span>-22%</span></p>
+                            <p class="price">6.990.000<sup>đ</sup></p>
+                            <div class="item-rating">
+                                <p class="star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="item-rating-total">82</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-item">
+                        <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
+                        <div class="item-info">
+                            <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
+                            <h3><a href="#">Apple Watch SE 40mm vien nhom day silicone</a></h3>
+                            <p class="old-price-line"><span class="old-price">8.990.000</span><sup class="dong">đ</sup><span>-22%</span></p>
+                            <p class="price">6.990.000<sup>đ</sup></p>
+                            <div class="item-rating">
+                                <p class="star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="item-rating-total">82</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-item">
+                        <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
+                        <div class="item-info">
+                            <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
+                            <h3><a href="#">Apple Watch SE 40mm vien nhom day silicone</a></h3>
+                            <p class="old-price-line"><span class="old-price">8.990.000</span><sup class="dong">đ</sup><span>-22%</span></p>
+                            <p class="price">6.990.000<sup>đ</sup></p>
+                            <div class="item-rating">
+                                <p class="star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="item-rating-total">82</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-item">
+                        <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
+                        <div class="item-info">
+                            <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
+                            <h3><a href="#">Apple Watch SE 40mm vien nhom day silicone</a></h3>
+                            <p class="old-price-line"><span class="old-price">8.990.000</span><sup class="dong">đ</sup><span>-22%</span></p>
+                            <p class="price">6.990.000<sup>đ</sup></p>
+                            <div class="item-rating">
+                                <p class="star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="item-rating-total">82</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-item">
+                        <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
+                        <div class="item-info">
+                            <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
+                            <h3><a href="#">Apple Watch SE 40mm vien nhom day silicone</a></h3>
+                            <p class="old-price-line"><span class="old-price">8.990.000</span><sup class="dong">đ</sup><span>-22%</span></p>
+                            <p class="price">6.990.000<sup>đ</sup></p>
+                            <div class="item-rating">
+                                <p class="star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="item-rating-total">82</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-item">
+                        <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
+                        <div class="item-info">
+                            <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
+                            <h3><a href="#">Apple Watch SE 40mm vien nhom day silicone</a></h3>
+                            <p class="old-price-line"><span class="old-price">8.990.000</span><sup class="dong">đ</sup><span>-22%</span></p>
+                            <p class="price">6.990.000<sup>đ</sup></p>
+                            <div class="item-rating">
+                                <p class="star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="item-rating-total">82</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="xemthem">Xem thêm sản phẩm khác &raquo;</a>
+
+            <div class="area new danhmuc3">
+                <a href="#"><img src="images/danhmuc3.png"></a>
+                <div class="deal-main">
+                    <div class="w-item">
+                        <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
+                        <div class="item-info">
+                            <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
+                            <h3><a href="#">Apple Watch SE 40mm vien nhom day silicone</a></h3>
+                            <p class="old-price-line"><span class="old-price">8.990.000</span><sup class="dong">đ</sup><span>-22%</span></p>
+                            <p class="price">6.990.000<sup>đ</sup></p>
+                            <div class="item-rating">
+                                <p class="star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="item-rating-total">82</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-item">
+                        <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
+                        <div class="item-info">
+                            <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
+                            <h3><a href="#">Apple Watch SE 40mm vien nhom day silicone</a></h3>
+                            <p class="old-price-line"><span class="old-price">8.990.000</span><sup class="dong">đ</sup><span>-22%</span></p>
+                            <p class="price">6.990.000<sup>đ</sup></p>
+                            <div class="item-rating">
+                                <p class="star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="item-rating-total">82</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-item">
+                        <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
+                        <div class="item-info">
+                            <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
+                            <h3><a href="#">Apple Watch SE 40mm vien nhom day silicone</a></h3>
+                            <p class="old-price-line"><span class="old-price">8.990.000</span><sup class="dong">đ</sup><span>-22%</span></p>
+                            <p class="price">6.990.000<sup>đ</sup></p>
+                            <div class="item-rating">
+                                <p class="star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="item-rating-total">82</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-item">
+                        <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
+                        <div class="item-info">
+                            <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
+                            <h3><a href="#">Apple Watch SE 40mm vien nhom day silicone</a></h3>
+                            <p class="old-price-line"><span class="old-price">8.990.000</span><sup class="dong">đ</sup><span>-22%</span></p>
+                            <p class="price">6.990.000<sup>đ</sup></p>
+                            <div class="item-rating">
+                                <p class="star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="item-rating-total">82</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-item">
+                        <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
+                        <div class="item-info">
+                            <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
+                            <h3><a href="#">Apple Watch SE 40mm vien nhom day silicone</a></h3>
+                            <p class="old-price-line"><span class="old-price">8.990.000</span><sup class="dong">đ</sup><span>-22%</span></p>
+                            <p class="price">6.990.000<sup>đ</sup></p>
+                            <div class="item-rating">
+                                <p class="star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="item-rating-total">82</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-item">
+                        <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
+                        <div class="item-info">
+                            <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
+                            <h3><a href="#">Apple Watch SE 40mm vien nhom day silicone</a></h3>
+                            <p class="old-price-line"><span class="old-price">8.990.000</span><sup class="dong">đ</sup><span>-22%</span></p>
+                            <p class="price">6.990.000<sup>đ</sup></p>
+                            <div class="item-rating">
+                                <p class="star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="item-rating-total">82</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-item">
+                        <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
+                        <div class="item-info">
+                            <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
+                            <h3><a href="#">Apple Watch SE 40mm vien nhom day silicone</a></h3>
+                            <p class="old-price-line"><span class="old-price">8.990.000</span><sup class="dong">đ</sup><span>-22%</span></p>
+                            <p class="price">6.990.000<sup>đ</sup></p>
+                            <div class="item-rating">
+                                <p class="star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="item-rating-total">82</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-item">
+                        <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
+                        <div class="item-info">
+                            <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
+                            <h3><a href="#">Apple Watch SE 40mm vien nhom day silicone</a></h3>
+                            <p class="old-price-line"><span class="old-price">8.990.000</span><sup class="dong">đ</sup><span>-22%</span></p>
+                            <p class="price">6.990.000<sup>đ</sup></p>
+                            <div class="item-rating">
+                                <p class="star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="item-rating-total">82</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-item">
+                        <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
+                        <div class="item-info">
+                            <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
+                            <h3><a href="#">Apple Watch SE 40mm vien nhom day silicone</a></h3>
+                            <p class="old-price-line"><span class="old-price">8.990.000</span><sup class="dong">đ</sup><span>-22%</span></p>
+                            <p class="price">6.990.000<sup>đ</sup></p>
+                            <div class="item-rating">
+                                <p class="star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="item-rating-total">82</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-item">
+                        <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
+                        <div class="item-info">
+                            <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
+                            <h3><a href="#">Apple Watch SE 40mm vien nhom day silicone</a></h3>
+                            <p class="old-price-line"><span class="old-price">8.990.000</span><sup class="dong">đ</sup><span>-22%</span></p>
+                            <p class="price">6.990.000<sup>đ</sup></p>
+                            <div class="item-rating">
+                                <p class="star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="item-rating-total">82</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="xemthem">Xem thêm sản phẩm khác &raquo;</a>
+
+            <div class="area new danhmuc4">
+                <a href="#"><img src="images/danhmuc4.png"></a>
+                <div class="deal-main">
+                    <div class="w-item">
+                        <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
+                        <div class="item-info">
+                            <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
+                            <h3><a href="#">Apple Watch SE 40mm vien nhom day silicone</a></h3>
+                            <p class="old-price-line"><span class="old-price">8.990.000</span><sup class="dong">đ</sup><span>-22%</span></p>
+                            <p class="price">6.990.000<sup>đ</sup></p>
+                            <div class="item-rating">
+                                <p class="star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="item-rating-total">82</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-item">
+                        <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
+                        <div class="item-info">
+                            <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
+                            <h3><a href="#">Apple Watch SE 40mm vien nhom day silicone</a></h3>
+                            <p class="old-price-line"><span class="old-price">8.990.000</span><sup class="dong">đ</sup><span>-22%</span></p>
+                            <p class="price">6.990.000<sup>đ</sup></p>
+                            <div class="item-rating">
+                                <p class="star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="item-rating-total">82</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-item">
+                        <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
+                        <div class="item-info">
+                            <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
+                            <h3><a href="#">Apple Watch SE 40mm vien nhom day silicone</a></h3>
+                            <p class="old-price-line"><span class="old-price">8.990.000</span><sup class="dong">đ</sup><span>-22%</span></p>
+                            <p class="price">6.990.000<sup>đ</sup></p>
+                            <div class="item-rating">
+                                <p class="star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="item-rating-total">82</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-item">
+                        <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
+                        <div class="item-info">
+                            <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
+                            <h3><a href="#">Apple Watch SE 40mm vien nhom day silicone</a></h3>
+                            <p class="old-price-line"><span class="old-price">8.990.000</span><sup class="dong">đ</sup><span>-22%</span></p>
+                            <p class="price">6.990.000<sup>đ</sup></p>
+                            <div class="item-rating">
+                                <p class="star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="item-rating-total">82</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-item">
+                        <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
+                        <div class="item-info">
+                            <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
+                            <h3><a href="#">Apple Watch SE 40mm vien nhom day silicone</a></h3>
+                            <p class="old-price-line"><span class="old-price">8.990.000</span><sup class="dong">đ</sup><span>-22%</span></p>
+                            <p class="price">6.990.000<sup>đ</sup></p>
+                            <div class="item-rating">
+                                <p class="star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="item-rating-total">82</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-item">
+                        <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
+                        <div class="item-info">
+                            <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
+                            <h3><a href="#">Apple Watch SE 40mm vien nhom day silicone</a></h3>
+                            <p class="old-price-line"><span class="old-price">8.990.000</span><sup class="dong">đ</sup><span>-22%</span></p>
+                            <p class="price">6.990.000<sup>đ</sup></p>
+                            <div class="item-rating">
+                                <p class="star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="item-rating-total">82</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-item">
+                        <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
+                        <div class="item-info">
+                            <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
+                            <h3><a href="#">Apple Watch SE 40mm vien nhom day silicone</a></h3>
+                            <p class="old-price-line"><span class="old-price">8.990.000</span><sup class="dong">đ</sup><span>-22%</span></p>
+                            <p class="price">6.990.000<sup>đ</sup></p>
+                            <div class="item-rating">
+                                <p class="star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="item-rating-total">82</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-item">
+                        <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
+                        <div class="item-info">
+                            <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
+                            <h3><a href="#">Apple Watch SE 40mm vien nhom day silicone</a></h3>
+                            <p class="old-price-line"><span class="old-price">8.990.000</span><sup class="dong">đ</sup><span>-22%</span></p>
+                            <p class="price">6.990.000<sup>đ</sup></p>
+                            <div class="item-rating">
+                                <p class="star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="item-rating-total">82</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-item">
+                        <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
+                        <div class="item-info">
+                            <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
+                            <h3><a href="#">Apple Watch SE 40mm vien nhom day silicone</a></h3>
+                            <p class="old-price-line"><span class="old-price">8.990.000</span><sup class="dong">đ</sup><span>-22%</span></p>
+                            <p class="price">6.990.000<sup>đ</sup></p>
+                            <div class="item-rating">
+                                <p class="star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="item-rating-total">82</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-item">
+                        <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
+                        <div class="item-info">
+                            <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
+                            <h3><a href="#">Apple Watch SE 40mm vien nhom day silicone</a></h3>
+                            <p class="old-price-line"><span class="old-price">8.990.000</span><sup class="dong">đ</sup><span>-22%</span></p>
+                            <p class="price">6.990.000<sup>đ</sup></p>
+                            <div class="item-rating">
+                                <p class="star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="item-rating-total">82</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="xemthem">Xem thêm sản phẩm khác &raquo;</a>
+
+            <div class="area new danhmuc5">
+                <a href="#"><img src="images/danhmuc5.png"></a>
+                <div class="deal-main">
+                    <div class="w-item">
+                        <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
+                        <div class="item-info">
+                            <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
+                            <h3><a href="#">Apple Watch SE 40mm vien nhom day silicone</a></h3>
+                            <p class="old-price-line"><span class="old-price">8.990.000</span><sup class="dong">đ</sup><span>-22%</span></p>
+                            <p class="price">6.990.000<sup>đ</sup></p>
+                            <div class="item-rating">
+                                <p class="star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="item-rating-total">82</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-item">
+                        <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
+                        <div class="item-info">
+                            <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
+                            <h3><a href="#">Apple Watch SE 40mm vien nhom day silicone</a></h3>
+                            <p class="old-price-line"><span class="old-price">8.990.000</span><sup class="dong">đ</sup><span>-22%</span></p>
+                            <p class="price">6.990.000<sup>đ</sup></p>
+                            <div class="item-rating">
+                                <p class="star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="item-rating-total">82</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-item">
+                        <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
+                        <div class="item-info">
+                            <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
+                            <h3><a href="#">Apple Watch SE 40mm vien nhom day silicone</a></h3>
+                            <p class="old-price-line"><span class="old-price">8.990.000</span><sup class="dong">đ</sup><span>-22%</span></p>
+                            <p class="price">6.990.000<sup>đ</sup></p>
+                            <div class="item-rating">
+                                <p class="star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="item-rating-total">82</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-item">
+                        <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
+                        <div class="item-info">
+                            <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
+                            <h3><a href="#">Apple Watch SE 40mm vien nhom day silicone</a></h3>
+                            <p class="old-price-line"><span class="old-price">8.990.000</span><sup class="dong">đ</sup><span>-22%</span></p>
+                            <p class="price">6.990.000<sup>đ</sup></p>
+                            <div class="item-rating">
+                                <p class="star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="item-rating-total">82</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-item">
+                        <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
+                        <div class="item-info">
+                            <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
+                            <h3><a href="#">Apple Watch SE 40mm vien nhom day silicone</a></h3>
+                            <p class="old-price-line"><span class="old-price">8.990.000</span><sup class="dong">đ</sup><span>-22%</span></p>
+                            <p class="price">6.990.000<sup>đ</sup></p>
+                            <div class="item-rating">
+                                <p class="star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="item-rating-total">82</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-item">
+                        <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
+                        <div class="item-info">
+                            <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
+                            <h3><a href="#">Apple Watch SE 40mm vien nhom day silicone</a></h3>
+                            <p class="old-price-line"><span class="old-price">8.990.000</span><sup class="dong">đ</sup><span>-22%</span></p>
+                            <p class="price">6.990.000<sup>đ</sup></p>
+                            <div class="item-rating">
+                                <p class="star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="item-rating-total">82</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-item">
+                        <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
+                        <div class="item-info">
+                            <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
+                            <h3><a href="#">Apple Watch SE 40mm vien nhom day silicone</a></h3>
+                            <p class="old-price-line"><span class="old-price">8.990.000</span><sup class="dong">đ</sup><span>-22%</span></p>
+                            <p class="price">6.990.000<sup>đ</sup></p>
+                            <div class="item-rating">
+                                <p class="star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="item-rating-total">82</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-item">
+                        <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
+                        <div class="item-info">
+                            <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
+                            <h3><a href="#">Apple Watch SE 40mm vien nhom day silicone</a></h3>
+                            <p class="old-price-line"><span class="old-price">8.990.000</span><sup class="dong">đ</sup><span>-22%</span></p>
+                            <p class="price">6.990.000<sup>đ</sup></p>
+                            <div class="item-rating">
+                                <p class="star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="item-rating-total">82</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-item">
+                        <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
+                        <div class="item-info">
+                            <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
+                            <h3><a href="#">Apple Watch SE 40mm vien nhom day silicone</a></h3>
+                            <p class="old-price-line"><span class="old-price">8.990.000</span><sup class="dong">đ</sup><span>-22%</span></p>
+                            <p class="price">6.990.000<sup>đ</sup></p>
+                            <div class="item-rating">
+                                <p class="star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="item-rating-total">82</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-item">
+                        <a href="#"><img src="images/apple-watch-se-40mm.jpg" alt=""></a>
+                        <div class="item-info">
+                            <p class="sale-title"><i class="fa-solid fa-bolt-lightning"></i><span>TUU TRUONG GIAM SOC</span></p>
+                            <h3><a href="#">Apple Watch SE 40mm vien nhom day silicone</a></h3>
+                            <p class="old-price-line"><span class="old-price">8.990.000</span><sup class="dong">đ</sup><span>-22%</span></p>
+                            <p class="price">6.990.000<sup>đ</sup></p>
+                            <div class="item-rating">
+                                <p class="star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="item-rating-total">82</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="xemthem">Xem thêm sản phẩm khác &raquo;</a>
+        </article>
+    </div>
+</section>
+
+<footer class="section footer">
+    <div class="container">
+        <div class="footer-col tuvan">
+            <div class="dttuvan tuvanbanhang">
+                <a href="#">
+                    <i class="fa-solid fa-phone"></i>
+                    1900 1009 TƯ VẤN BÁN HÀNG
+                </a>
+            </div>
+            <div class="dttuvan hotrodichvu">
+                <a href="#">
+                    <i class="fa-solid fa-phone"></i>
+                    1900 0091 HỖ TRỢ DỊCH VỤ
+                </a>
+            </div>
+            <div class="dttuvan tuvankythuat">
+                <a href="#">
+                    <i class="fa-solid fa-phone"></i>
+                    1900 0246 TƯ VẤN KỸ THUẬT
+                </a>
+            </div>
         </div>
-        <div class="footer-icons">
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-github"></i></a>
+        <div class="footer-col cham-soc-khach-hang"> CHĂM SÓC KHÁCH HÀNG<br>
+            <span class="noidung-footer-col"> Hướng dẫn mua hàng<br>
+                Chính sách đổi trả<br>
+                Chính sách bảo hành<br>
+                Tra cứu bảo hành<br></span>
+        </div>
+        <div class="footer-col ve-g3watch"> VỀ G3WATCH<br>
+            <span class="noidung-footer-col">Giới thiệu đồng hồ Xwatch<br>
+                Triết lý kinh doanh<br>
+                Giấy chứng nhận và giải thưởng<br>
+                    Nhận xét của khách hàng<br></span>
+        </div>
+        <div class="footer-col tien ich">TIỆN ÍCH<br>
+            <span class="noidung-footer-col">Kiến thức đồng hồ<br>
+                Thông tin liên hệ<br>
+                    Tuyển dụng<br></span>
+        </div>
+        <div class="mangxahoi">
+            <ul>
+                <li><a href="#"><i class="fa-regular fa-envelope"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            </ul>
+        </div>
+        <div class="diachi">
+            <p><a href="#">Số 8, Tôn Thất Thuyết, Cầu Giấy, Hà Nội</a></p>
+            <p><a href="#">Số 1B, phố Tây Tựu, TP. Hồ Chí Minh</a></p>
+            <p><a href="#">Số 12A, phố Mã Tấu, Ngũ Hành Sơn, Đà Nẵng</a></p>
         </div>
     </div>
 </footer>
+
 </body>
 </html>
