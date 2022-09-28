@@ -9,8 +9,140 @@
     <link rel="stylesheet" href="lib/fontawesome/css/all.css"/>
     <link rel="stylesheet" href="css/layout.css"/>
     <link rel="stylesheet" href="css/cart.css"/>
+    <link rel="stylesheet" href="lib/bootstrap5.2/css/bootstrap.min.css">
 </head>
 <body>
+<h2 class="text-center">GIỎ HÀNG</h2>
+<div class="container">
+    <table id="cart" class="table table-hover table-condensed">
+        <thead>
+        <tr class="text-start">
+            <th style="width:15%" class="text-center">Hình ảnh</th>
+            <th style="width:30%">Tên sản phẩm</th>
+            <th style="width:15%">Giá</th>
+            <th style="width:8%" class="text-center">Số lượng</th>
+            <th style="width:20%" class="text-center">Thành tiền</th>
+            <th style="width:12%">Thao tác</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td class="text-center"><img src="images/apple-watch-s7-41mm-den-thumb-600x600.jpg" alt="Sản phẩm 1" class="img-responsive" width="100"></td>
+            <td data-th="Product">
+                <div class="row">
+                    <div>
+                    </div>
+                    <div class="col-sm-10">
+                        <h4 class="nomargin">Sản phẩm 1</h4>
+                        <p>Mô tả của sản phẩm 1</p>
+                    </div>
+                </div>
+            </td>
+            <td data-th="Price">200.000 đ</td>
+            <td data-th="Quantity"><input class="form-control text-center" value="1" type="number">
+            </td>
+            <td data-th="Subtotal" class="text-center">200.000 đ</td>
+            <td class="actions" data-th="">
+                <button class="btn btn-info btn-sm"><i class="fa fa-edit"></i>
+                </button>
+                <button class="btn btn-danger btn-sm"><i class="fa-solid fa-trash"></i>
+                </button>
+            </td>
+        </tr>
 
+        <tr>
+            <td class="text-center"><img src="images/cb7193e7840a15af8422dbb631a38362.jpg" alt="Sản phẩm 1" class="img-responsive" width="100"></td>
+            <td data-th="Product">
+                <div class="row">
+                    <div>
+                    </div>
+                    <div class="col-sm-10">
+                        <h4 class="nomargin">Sản phẩm 1</h4>
+                        <p>Mô tả của sản phẩm 1</p>
+                    </div>
+                </div>
+            </td>
+            <td data-th="Price">200.000 đ</td>
+            <td data-th="Quantity"><input class="form-control text-center" value="1" type="number">
+            </td>
+            <td data-th="Subtotal" class="text-center">200.000 đ</td>
+            <td class="actions" data-th="">
+                <button class="btn btn-info btn-sm"><i class="fa fa-edit"></i>
+                </button>
+                <button class="btn btn-danger btn-sm"><i class="fa-solid fa-trash"></i>
+                </button>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="text-center"><img src="images/apple-watch-se-40mm.jpg" alt="Sản phẩm 1" class="img-responsive" width="100"></td>
+            <td data-th="Product">
+                <div class="row">
+                    <div>
+                    </div>
+                    <div class="col-sm-10">
+                        <h4 class="nomargin">Sản phẩm 1</h4>
+                        <p>Mô tả của sản phẩm 1</p>
+                    </div>
+                </div>
+            </td>
+            <td data-th="Price">200.000 đ</td>
+            <td data-th="Quantity"><input class="form-control text-center" value="1" type="number">
+            </td>
+            <td data-th="Subtotal" class="text-center">200.000 đ</td>
+            <td class="actions" data-th="">
+                <button class="btn btn-info btn-sm"><i class="fa fa-edit"></i>
+                </button>
+                <button class="btn btn-danger btn-sm"><i class="fa-solid fa-trash"></i>
+                </button>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="text-center"><img src="images/cb7193e7840a15af8422dbb631a38362.jpg" alt="Sản phẩm 1" class="img-responsive" width="100"></td>
+            <td data-th="Product">
+                <div class="row">
+                    <div>
+                    </div>
+                    <div class="col-sm-10">
+                        <h4 class="nomargin">Sản phẩm 1</h4>
+                        <p>Mô tả của sản phẩm 1</p>
+                    </div>
+                </div>
+            </td>
+            <td data-th="Price">200.000 đ</td>
+            <td data-th="Quantity"><input class="form-control text-center" value="1" type="number">
+            </td>
+            <td data-th="Subtotal" class="text-center">200.000 đ</td>
+            <td class="actions">
+                <button class="btn btn-info btn-sm"><i class="fa fa-edit"></i>
+                </button>
+                <button class="btn btn-danger btn-sm"><i class="fa-solid fa-trash"></i>
+                </button>
+            </td>
+        </tr>
+
+        </tbody><tfoot>
+    <tr>
+        <td>
+            <a href="#" class="btn btn-warning"><i class="fa fa-angle-left"></i> Tiếp tục mua hàng</a>
+        </td>
+        <td colspan="2" class="hidden-xs"> </td>
+        <td>
+
+        </td>
+        <td class="hidden-xs text-center">
+            <strong>Tổng tiền 5.000.000 đ</strong>
+        </td>
+        <td>
+            <a href="#" class="btn btn-success btn-block">Thanh toán <i class="fa fa-angle-right"></i></a>
+        </td>
+    </tr>
+    </tfoot>
+    </table>
+</div>
+
+<script src="lib/bootstrap5.2/js/bootstrap.min.js"></script>
+<script src="lib/jquery/jquery3.6.1.js"></script>
 </body>
 </html>
