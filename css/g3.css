@@ -95,7 +95,8 @@ nav img{
     width: 20px;
 }
 .nav li{
-    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     color: white;
     line-height: 3;
     padding: 0 30px;
@@ -314,4 +315,25 @@ h3 a:hover{
     font-size: 16px;
     color: #22222295;
     text-align: center;
+}
+
+
+/*css megamenu*/
+.nav ul li{
+    position: relative;
+}
+.nav ul li ul{
+    display: none;
+    position: absolute;
+    z-index: 10;              /*in nổi phần tử */
+    background-color: dimgray;
+    left: 0;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.nav ul li:hover ul{
+    display: block;
+}
+.nav ul li ul li:hover a{
+    color: red;
 }
