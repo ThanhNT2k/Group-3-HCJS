@@ -36,3 +36,22 @@
 .new{
     margin-bottom: 30px;
 }
+
+.nav ul li{
+    position: relative;
+}
+.nav ul li ul{
+    display: none;
+    position: absolute;
+    z-index: 10;              /*in nổi phần tử */
+    background-color: dimgray;
+    left: 0;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.nav ul li:hover ul{
+    display: block;
+}
+.nav ul li ul li:hover a{
+    color: red;
+}
