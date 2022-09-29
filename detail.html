@@ -15,6 +15,7 @@
   <script src="lib/owl-carousel/owl.carousel.min.js"></script>
 </head>
 <body>
+
 <header class="section header">
   <div class="container">
     <div class="header-logo">
@@ -39,42 +40,138 @@
     </div>
   </div>
 </header>
+
+<nav class="section nav">
+  <div class="container">
+    <ul>
+      <a href="homepage.html"><i class="fa-solid fa-house-chimney fa-lg"></i></a>
+      <li>
+        <a href="#">Thương hiệu</a>
+        <ul class="sub_menu">
+          <li><a href="">Rolex</a></li>
+          <li><a href="">Calvin Klein</a></li>
+          <li><a href="">Timex</a></li>
+          <li><a href="">Tissot</a></li>
+          <li><a href="">Omega</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Smartwatch</a>
+        <ul class="sub_menu">
+          <li><a href="">Apple</a></li>
+          <li><a href="">Samsung</a></li>
+          <li><a href="">Xiaomi</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Đồng hồ nam</a>
+        <ul class="sub_menu">
+          <li><a href="">Mức giá</a></li>
+          <li><a href="">Bộ máy</a></li>
+          <li><a href="">Loại dây</a></li>
+          <li><a href="">Size mặt</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Đồng hồ nữ</a>
+        <ul class="sub_menu">
+          <li><a href="">Mức giá</a></li>
+          <li><a href="">Bộ máy</a></li>
+          <li><a href="">Loại dây</a></li>
+          <li><a href="">Size mặt</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Vòng đeo tay thông minh</a></li>
+      <li>
+        <a href="#">Phụ kiện đi kèm</a>
+        <ul class="sub_menu">
+          <li><a href="#">Ví da</a></li>
+          <li><a href="">Thắt lưng</a></li>
+          <li><a href="">Hộp đựng</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Mức giá</a>
+        <ul class="sub_menu">
+          <li><a href="">Basic</a></li>
+          <li><a href="">Mid</a></li>
+          <li><a href="">Luxury</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>
+
 <div class="container">
   <div class="content1">
     <div class="box1">
-      <div>
-        <img src="./images/casio-mtp-1374d-1avdf.jpg" alt="">
+
+      <div id="owl" class="owl-carousel owl-theme">
+        <div class="item"><img src="images/detail/detail1.jpg"></div>
+        <div class="item"><img src="images/detail/detail2.jpg"></div>
+        <div class="item"><img src="images/detail/detail3.jpg"></div>
+        <div class="item"><img src="images/detail/detail4.jpg"></div>
 
       </div>
+      <script type="text/javascript">
 
+        $(document).ready(function(){
+          $('.owl-carousel').owlCarousel({
+
+            // autoplay:true,
+            autoplayTimeout:3000,
+            // dots:false,
+
+            loop:true,
+            margin:10,
+            // nav:false,
+            navText: ["<img src='images/prev-icon.png' width='30px'>","<img src='/images/next-icon.png' width='30px'>"],
+            responsive:{
+
+              0:{
+
+                items:1
+              },
+              600:{
+
+                items:1
+              },
+              1000:{
+
+                items:1
+              }
+            }
+          })
+        });
+      </script>
 
     </div>
     <div class="box2">
 
       <h1 style="margin-top:30px; margin:30px auto; text-align: center;">Casio MTP-1374D-1AVDF Nam Quartz</h1>
-      <h1 style="color:rgb(253, 181, 48);margin:20px auto; text-align: center;">2.073.000VNĐ</h4>
-        <div class="text">
+      <h4 style="color:rgb(253, 181, 48);margin:20px auto; text-align: center;">2.073.000VNĐ</h4>
+      <div class="text">
                     <span>
                         <i class='bx bxs-gift'></i>
                         <p>Mua Online Với Nhiều Chương Trình Ưu Đãi</p>
                     </span>
 
-          <span>
+        <span>
                         <i class='bx bxs-truck'></i>
                         <p>Miễn phí vận chuyển trên toàn quốc</p>
                     </span>
-          <span>
+        <span>
                         <i class='bx bxs-shield-plus'></i>
                         <p>Bảo hành chính hãng</p>
                     </span>
-          <span>
+        <span>
                         <i class='bx bx-refresh'></i>
                         <p>Đổi hàng miễn phí trong 7 ngày khi chưa sử dụng</p>
                     </span>
-        </div>
-        <div style="width: 100%;">
-          <button>Mua ngay</button>
-        </div>
+      </div>
+      <div style="width: 100%;">
+        <button>Mua ngay</button>
+      </div>
 
 
     </div>
@@ -105,6 +202,7 @@
   </div>
 
 </div>
+
 <footer class="section footer">
   <div class="container">
     <div class="footer-col tuvan">
