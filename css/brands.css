@@ -16,18 +16,67 @@
 .danhmucsanpham a{
     color: black;
 }
+
 .danhmucsanpham li{
     padding: 8px 7px;
     line-height: 1.5;
     list-style: none;
     font-size: 14px;
     float: left;
-    margin: 30px 5px 30px;
+    margin: 0 5px 0;
     border-radius: 5px;
     border: 1px solid gray;
     height: 40px;
     box-shadow: 0 0 1px gray;
 }
+
+.danhmucsanpham .filter1 li{
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.danhmucsanpham .filter2 li{
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.danhmucsanpham .filter3 li{
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.filter2{
+    width: 100%;
+}
+.filter3{
+    width: 100%;
+}
+.danhmucsanpham .filter li:hover{
+    border: 1px solid orangered;
+}
+.danhmucsanpham .filter li:hover a{
+    color: orangered;
+    transform: scale(1.001);
+}
+#line-filter{
+    border: none;
+}
+#line-filter a{
+    color: red;
+}
+#price-filter{
+    border: none;
+}
+#price-filter a{
+    color: red;
+}
+.brand{
+    margin-bottom: 40px;
+}
+
+
+
+
+
 .new .deal-main{
     background-color: black;
     padding: 0;
